@@ -1,9 +1,6 @@
 /*************** This file will contain all custom styles for site ***************************/
 
-/* Commons */
-cite a{
-    text-decoration: none;
-}
+
 /*************** Common to all files ***************************/
 
 
@@ -25,7 +22,6 @@ footer {
 /* Banner */
 
 #banner {
-    border: none;
     padding-top: 15vh;
     background: black url('images/cover.jpg') no-repeat fixed center;
     background-size: cover;
@@ -34,14 +30,10 @@ footer {
     color: black;
     font-size: 3em;
 }
-#banner cite a{
-    color: black;
-    /*text-decoration: none;*/
-    font-size: 0.7em;
-}
+
 #banner blockquote {
     background: rgba(255, 255, 255, 0.6);
-    border: none;
+    padding: 10%;
 }
 
 /*************marijuana.html**************/
@@ -87,3 +79,44 @@ footer {
     font-size: 5em;
 	text-align: center;
 }
+
+/************** tobacco.html *****************/
+
+.tobacco-background{
+	padding-top: 15vh;
+    background: black url(images/tobacco.jpg) no-repeat fixed center;
+    background-size: cover;
+    height: 90vh;
+    width: 100vw;
+    color: black;
+    font-size: 5em;
+	text-align: center;
+}
+
+.background{
+	text-align: justify;
+}
+
+.risks{
+	float: right;
+	width: 20%;
+	text-align: justify;
+}
+
+.reasons{
+	float: right;
+	width: 20%;
+	text-align: justify;
+}
+.trivias{
+	padding-top: 10vh;
+	padding-bottom: 10vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+    background: black url(images/trivias.jpeg) no-repeat fixed center;
+    background-size: cover;
+    color: black;
+	font-size: 1.5em;
+	text-align: justify;
+}
+
